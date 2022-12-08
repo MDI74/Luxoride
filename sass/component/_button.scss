@@ -8,9 +8,10 @@
     font-weight: 700;
     line-height: 150%;
     padding: 5px 53px;
-}
 
-.button--cars {
-    min-height: 54px;
-    padding: 5px 122px;
+
+    &--cars {
+        min-height: 54px;
+        padding: 5px 122px;
+    }
 }
