@@ -8,6 +8,12 @@
     font-weight: 700;
     line-height: 150%;
     padding: 5px 53px;
+    transition: all 0.2s ease-in 0s;
+
+    &:hover{
+        background-color: #575757;
+
+    }
 
 
     &--cars {

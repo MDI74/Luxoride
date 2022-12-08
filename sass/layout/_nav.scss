@@ -30,6 +30,11 @@
         font-size: 15px;
         color: inherit;
         line-height:  calc(28 / 15 * 100%);
+
+        &:hover{    
+            padding-bottom: 1px;
+            border-bottom: 2px solid black;
+        }
     }
 
 }
