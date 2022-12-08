@@ -1,0 +1,10 @@
+.title {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    padding: 0px 5px;
+
+    @include _480{
+        font-size: 42px;
+    }
+}

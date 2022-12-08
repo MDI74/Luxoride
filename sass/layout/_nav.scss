@@ -1,0 +1,35 @@
+.menu {
+    margin: 0px 0px 0px 244px;
+    
+    @include _992 {
+        margin: 0px 0px 0px 144px;
+    }
+
+    @include _768{
+        margin: 0px 0px 0px 24px;
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+        column-gap: 115px;
+        flex-wrap: wrap;
+        padding: 5px 0;
+        
+        @include _992{
+            column-gap: 65px;
+        }
+
+        @include _768{
+            column-gap: 25px;
+        }
+
+    }
+
+    &__link {
+        font-size: 15px;
+        color: inherit;
+        line-height:  calc(28 / 15 * 100%);
+    }
+
+}

@@ -1,0 +1,16 @@
+//Base
+@import "./base/base";
+@import "./base/reset";
+@import "./base/mixins";
+
+//Layout
+@import "./layout/header";
+@import "./layout/nav";
+@import "./layout/main-block";
+@import "./layout/ourmachines";
+@import "./layout/price";
+@import "./layout/footer";
+
+//Component 
+@import "./component/button";
+@import "./component/title";

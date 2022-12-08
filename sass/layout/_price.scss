@@ -1,0 +1,75 @@
+.price {
+    margin-top: 100px;
+
+    &__body {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        column-gap: 57px;
+
+        @include _1385 {
+            flex-direction: column;
+        } 
+    }
+
+    &__container{
+        padding-left: calc((100% - 1215px)/2 + 15px); 
+
+        @include _1385 {
+            padding-left: unset; 
+            max-width: 1215px;
+            margin: 0 auto;
+            padding: 0px 15px;
+            display: flex;
+            flex-direction: column;
+        } 
+    }
+
+    &__form {
+        display: flex;
+        max-width: 700px;
+        flex-direction: column;
+        padding: 60px 0px 121px 0px;
+        flex: 0 1 21.3%;
+
+        @include _1385 {
+            width: 100%;
+            flex: 1 1 auto;
+        } 
+
+        @include _768 {
+            padding: 60px 0px 21px 0px;
+        } 
+
+        & >*:not(:last-child){
+            margin-bottom: 15px;
+        }
+    }
+
+    &__input {
+        width: 100%;
+        background: #F9F9F9;
+        border: 1px solid #5D5D5F;
+        min-height: 65px;
+        padding: 5px 18px;
+        
+        @include _1385 {
+            flex: 1 1 auto;
+        } 
+    }
+
+    &__image {
+        margin-left: -25px;
+    }
+}
+
+.header-price__title {
+    margin-bottom: 20px;
+
+    &__subtitle {
+        line-height: 130%;
+        color: #5D5D5F;
+    }
+}
+
